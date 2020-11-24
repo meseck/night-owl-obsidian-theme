@@ -1,0 +1,115 @@
+// Title Bar
+.titlebar {
+  background-color: unset;
+  border-bottom: 1px solid var(--border);
+}
+
+// Status Bar
+.status-bar {
+  max-height: unset;
+  padding-bottom: 2px;
+  font-size: 12px;
+  border-top: 1px solid var(--border);
+}
+
+.nav-file-title,
+.nav-folder-title {
+  font-size: 13px;
+}
+
+.view-header-title {
+  font-size: 14px;
+}
+
+.workspace-ribbon.mod-left {
+  border-right: 1px solid var(--border);
+}
+
+.workspace-ribbon.mod-right {
+  border-left: 1px solid var(--border);
+}
+
+.view-header {
+  border-bottom: 1px solid var(--border) !important;
+}
+
+.workspace-tab-header-container {
+  height: 36px;
+  padding-top: 4px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.workspace-split.mod-left-split > .workspace-leaf-resize-handle,
+.workspace-split.mod-right-split > .workspace-leaf-resize-handle {
+  width: 1px;
+  height: 100vh;
+  background-color: var(--border);
+}
+
+.workspace-tabs {
+  padding: 0 0 30px 0;
+}
+
+.nav-header {
+  padding: 8px 20px 4px 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.workspace-leaf-content[data-type="search"] .nav-action-button,
+.workspace-leaf-content[data-type="backlink"] .nav-action-button {
+  padding: 0 10px;
+  margin: 0;
+  border-radius: 4px;
+}
+
+.nav-buttons-container {
+  justify-content: left;
+  margin-left: -20px;
+}
+
+.side-dock-ribbon-action {
+  padding: 5px 0;
+}
+
+.workspace-ribbon-collapse-btn {
+  padding: 9px 5px 4px 5px;
+  margin-top: 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.workspace-ribbon.mod-right.is-collapsed {
+  border-left-color: var(--border);
+}
+
+.workspace-ribbon.mod-left.is-collapsed {
+  border-right-color: var(--border);
+}
+
+.nav-files-container {
+  overflow-y: hidden;
+}
+
+.cm-s-obsidian .CodeMirror-linenumber {
+  color: var(--line-numbers);
+}
+
+.CodeMirror-gutter-wrapper {
+  left: -40px !important;
+}
+
+.side-dock-settings {
+  margin-bottom: 22px;
+}
+
+.side-dock-actions {
+  margin-top: 5px;
+}
+
+.workspace-tab-container-inner {
+  margin-left: -20px;
+}
+
+.view-actions {
+  margin-right: -10px;
+}

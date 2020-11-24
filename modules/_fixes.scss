@@ -1,0 +1,21 @@
+// Shifted Line-Numbers
+.cm-s-obsidian pre.HyperMD-list-line {
+  padding-top: unset;
+}
+
+// MacOs Title Bar Height
+.mod-macos {
+  padding-top: 32px !important;
+}
+
+.mod-macos .titlebar {
+  height: 32px !important;
+}
+
+.mod-macos .titlebar-text {
+  line-height: 30px;
+}
+
+.mod-macos .titlebar-button {
+  padding-top: 4px;
+}

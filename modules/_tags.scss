@@ -1,0 +1,26 @@
+.cm-s-obsidian span.cm-hashtag {
+  padding-bottom: 1px;
+  font-family: var(--font-monospace);
+  color: var(--tag-text);
+  text-decoration: unset;
+}
+
+// Left Side
+span.cm-hashtag-begin {
+  padding-left: 8px;
+  border-top: 1px solid var(--tag-border);
+  border-bottom: 1px solid var(--tag-border);
+  border-left: 1px solid var(--tag-border);
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+// Right Side
+span.cm-hashtag-end {
+  padding-right: 10px;
+  border-top: 1px solid var(--tag-border);
+  border-right: 1px solid var(--tag-border);
+  border-bottom: 1px solid var(--tag-border);
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}

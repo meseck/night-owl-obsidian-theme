@@ -1,0 +1,14 @@
+.CodeMirror,
+.CodeMirror-cursors,
+.CodeMirror-cursor {
+  font-family: var(--font-monospace);
+}
+
+.CodeMirror-cursor {
+  background-color: var(--vim-cursor) !important;
+  opacity: 60% !important;
+}
+
+.cm-animate-fat-cursor {
+  background-color: var(--vim-cursor) !important;
+}

@@ -1,0 +1,5 @@
+@use "sass:color";
+
+@function mute-color($color) {
+  @return color.scale($color, $saturation: -50%, $lightness: -40%)
+}

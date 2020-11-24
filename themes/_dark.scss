@@ -1,0 +1,84 @@
+@use "sass:color";
+@use "colors";
+@use "../functions";
+
+.theme-dark {
+  // Backgrounds
+  --background-primary: #{colors.$dark1};
+  --background-primary-alt: #{colors.$dark1};
+  --background-secondary: #{colors.$dark1};
+  --background-secondary-alt: #{colors.$dark1};
+
+  // Borders
+  --background-modifier-border: #{colors.$dark3};
+  --border: #{colors.$dark2};
+
+  // Text
+  --text-normal: #{colors.$light1};
+
+  --text-bold: #{colors.$yellow};
+  --text-bold-muted: #{functions.mute-color(colors.$yellow)};
+
+  --text-italic: #{colors.$blue};
+  --text-italic-muted: #{functions.mute-color(colors.$blue)};
+
+  --text-faint: #{colors.$light1};
+  --text-muted: #{colors.$light1};
+  --text-accent: #{colors.$orange};
+  --text-on-accent: #{colors.$light1};
+  --text-error: #{colors.$red};
+
+  --text-selection: #{colors.$dark3};
+  --text-highlight-bg: #{colors.$dark3};
+
+  --link: #{colors.$orange};
+  --link-hover: #{color.scale(colors.$orange, $lightness: 25%)};
+
+  // Headings
+  --text-title-h1: #{colors.$purple};
+  --text-title-h1-muted: #{functions.mute-color(colors.$purple)};
+
+  --text-title-h2: #{colors.$blue};
+  --text-title-h2-muted: #{functions.mute-color(colors.$blue)};
+
+  --text-title-h3: #{colors.$teal};
+  --text-title-h3-muted: #{functions.mute-color(colors.$teal)};
+
+  --text-title-h4: #{colors.$green};
+  --text-title-h4-muted: #{functions.mute-color(colors.$green)};
+
+  --text-title-h5: #{colors.$light1};
+  --text-title-h5-muted: #{functions.mute-color(colors.$light1)};
+
+  // Interactive
+  --interactive-accent: #{colors.$purple};
+  --interactive-before: #{colors.$dark3};
+
+  // Buttons
+  --button-bg: #{colors.$purple};
+  --button-text: #{colors.$dark0};
+
+  // Icons
+  --icon: #{colors.$light1};
+  --icon-hover: #{colors.$yellow};
+
+  // Tags
+  --tag-text: #{colors.$blue};
+  --tag-border: #{colors.$blue};
+
+  // Settings Checkboxes
+  --setting-checkbox: #{colors.$red};
+  --setting-checkbox-enable: #{colors.$green};
+  --setting-checkbox-thumb: #{colors.$dark0};
+
+  // Scroll Bar
+  --scrollbar-bg: #{colors.$dark1};
+  --scrollbar-thumb-bg: #{colors.$dark2};
+  --scrollbar-active-thumb-bg: #{colors.$dark2};
+
+  // Others
+  --line-numbers: #{colors.$dark3};
+  --list-mark: #{colors.$blue};
+  --task-mark: #{colors.$blue};
+  --vim-cursor: #{colors.$purple};
+}

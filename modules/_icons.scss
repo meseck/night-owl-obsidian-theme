@@ -1,0 +1,13 @@
+// Icons
+.side-dock-ribbon-tab,
+.side-dock-ribbon-action,
+.workspace-tab-header-inner-icon,
+.nav-action-button,
+.view-action,
+.workspace-ribbon-collapse-btn {
+  color: var(--icon);
+
+  &:hover {
+    color: var(--icon);
+  }
+}

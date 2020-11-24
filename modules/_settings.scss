@@ -1,0 +1,17 @@
+// Settings Checkbox
+.checkbox-container {
+  background-color: var(--setting-checkbox);
+}
+
+.checkbox-container.is-enabled {
+  background-color: var(--setting-checkbox-enable);
+}
+
+.checkbox-container:after {
+  background-color: var(--setting-checkbox-thumb);
+}
+
+// Selected Item
+.suggestion-item.is-selected {
+  background-color: var(--background-primary);
+}

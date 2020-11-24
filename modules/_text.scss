@@ -1,0 +1,55 @@
+// Bold
+.cm-strong,
+.markdown-preview-section strong {
+  font-weight: 500;
+  color: var(--text-bold);
+}
+
+.cm-formatting.cm-formatting-strong.cm-strong {
+  color: var(--text-bold-muted)
+}
+
+// Italic
+.cm-em,
+.markdown-preview-section em {
+  color: var(--text-italic);
+}
+
+.cm-formatting.cm-formatting-em.cm-em {
+  color: var(--text-italic-muted)
+}
+
+// Link
+.cm-s-obsidian span.cm-formatting-link,
+span.cm-hmd-internal-link,
+span.cm-url,
+.internal-link {
+  font-weight: 500;
+  color: var(--link) !important;
+}
+
+a {
+  color: var(--link);
+
+  &:hover {
+    color: var(--link-hover);
+  }
+}
+
+// Spell Error
+.CodeMirror .cm-spell-error {
+  background-image: unset;
+  border-bottom: 1px var(--text-error) dashed;
+}
+
+// List
+.cm-s-obsidian span.cm-formatting-list {
+  font-weight: 500;
+  color: var(--list-mark);
+}
+
+// Task Checklist
+.cm-s-obsidian span.cm-formatting-task {
+  font-weight: 500;
+  color: var(--task-mark);
+}

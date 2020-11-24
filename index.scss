@@ -1,0 +1,18 @@
+// Themes
+@use "themes/dark";
+
+// Modules
+@use "modules/layout";
+@use "modules/headings";
+@use "modules/text";
+@use "modules/cursor";
+@use "modules/tags";
+@use "modules/settings";
+@use "modules/icons";
+@use "modules/fixes";
+@use "modules/button";
+
+// Font
+:root {
+  --font-monospace: "Jetbrains Mono", "Source Code Pro", monospace;
+}
