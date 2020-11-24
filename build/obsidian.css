@@ -1,0 +1,382 @@
+.theme-dark {
+  --background-primary: #031525;
+  --background-primary-alt: #031525;
+  --background-secondary: #031525;
+  --background-secondary-alt: #031525;
+  --background-modifier-border: #1d4667;
+  --border: #0b2942;
+  --text-normal: #d6deeb;
+  --text-bold: #ecc48d;
+  --text-bold-muted: #997749;
+  --text-italic: #82aaff;
+  --text-italic-muted: #3a5fad;
+  --text-faint: #d6deeb;
+  --text-muted: #d6deeb;
+  --text-accent: #f78c6c;
+  --text-on-accent: #d6deeb;
+  --text-error: #ff6363;
+  --text-selection: #1d4667;
+  --text-highlight-bg: #1d4667;
+  --link: #f78c6c;
+  --link-hover: #f9a991;
+  --text-title-h1: #c792ea;
+  --text-title-h1-muted: #7a4b99;
+  --text-title-h2: #82aaff;
+  --text-title-h2-muted: #3a5fad;
+  --text-title-h3: #7fdbca;
+  --text-title-h3-muted: #4b857a;
+  --text-title-h4: #addb67;
+  --text-title-h4-muted: #677e43;
+  --text-title-h5: #d6deeb;
+  --text-title-h5-muted: #72829b;
+  --interactive-accent: #c792ea;
+  --interactive-before: #1d4667;
+  --button-bg: #c792ea;
+  --button-text: #010e1a;
+  --icon: #d6deeb;
+  --icon-hover: #ecc48d;
+  --tag-text: #82aaff;
+  --tag-border: #82aaff;
+  --setting-checkbox: #ff6363;
+  --setting-checkbox-enable: #addb67;
+  --setting-checkbox-thumb: #010e1a;
+  --scrollbar-bg: #031525;
+  --scrollbar-thumb-bg: #0b2942;
+  --scrollbar-active-thumb-bg: #0b2942;
+  --line-numbers: #1d4667;
+  --list-mark: #82aaff;
+  --task-mark: #82aaff;
+  --vim-cursor: #c792ea;
+}
+
+.titlebar {
+  background-color: unset;
+  border-bottom: 1px solid var(--border);
+}
+
+.status-bar {
+  max-height: unset;
+  padding-bottom: 2px;
+  font-size: 12px;
+  border-top: 1px solid var(--border);
+}
+
+.nav-file-title,
+.nav-folder-title {
+  font-size: 13px;
+}
+
+.view-header-title {
+  font-size: 14px;
+}
+
+.workspace-ribbon.mod-left {
+  border-right: 1px solid var(--border);
+}
+
+.workspace-ribbon.mod-right {
+  border-left: 1px solid var(--border);
+}
+
+.view-header {
+  border-bottom: 1px solid var(--border) !important;
+}
+
+.workspace-tab-header-container {
+  height: 36px;
+  padding-top: 4px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.workspace-split.mod-left-split > .workspace-leaf-resize-handle,
+.workspace-split.mod-right-split > .workspace-leaf-resize-handle {
+  width: 1px;
+  height: 100vh;
+  background-color: var(--border);
+}
+
+.workspace-tabs {
+  padding: 0 0 30px 0;
+}
+
+.nav-header {
+  padding: 8px 20px 4px 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.workspace-leaf-content[data-type=search] .nav-action-button,
+.workspace-leaf-content[data-type=backlink] .nav-action-button {
+  padding: 0 10px;
+  margin: 0;
+  border-radius: 4px;
+}
+
+.nav-buttons-container {
+  justify-content: left;
+  margin-left: -20px;
+}
+
+.side-dock-ribbon-action {
+  padding: 5px 0;
+}
+
+.workspace-ribbon-collapse-btn {
+  padding: 9px 5px 4px 5px;
+  margin-top: 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.workspace-ribbon.mod-right.is-collapsed {
+  border-left-color: var(--border);
+}
+
+.workspace-ribbon.mod-left.is-collapsed {
+  border-right-color: var(--border);
+}
+
+.nav-files-container {
+  overflow-y: hidden;
+}
+
+.cm-s-obsidian .CodeMirror-linenumber {
+  color: var(--line-numbers);
+}
+
+.CodeMirror-gutter-wrapper {
+  left: -40px !important;
+}
+
+.side-dock-settings {
+  margin-bottom: 22px;
+}
+
+.side-dock-actions {
+  margin-top: 5px;
+}
+
+.workspace-tab-container-inner {
+  margin-left: -20px;
+}
+
+.view-actions {
+  margin-right: -10px;
+}
+
+.cm-formatting.cm-formatting-header {
+  margin-right: -0.4em;
+}
+
+.cm-header-1,
+.markdown-preview-section h1 {
+  font-size: 2.074rem !important;
+  font-weight: 500 !important;
+  color: var(--text-title-h1) !important;
+}
+
+.cm-formatting.cm-formatting-header.cm-formatting-header-1 {
+  font-size: 1.5rem !important;
+  color: var(--text-title-h1-muted) !important;
+}
+
+.cm-header-2,
+.markdown-preview-section h2 {
+  font-size: 1.728rem !important;
+  font-weight: 500 !important;
+  color: var(--text-title-h2) !important;
+}
+
+.cm-formatting.cm-formatting-header.cm-formatting-header-2 {
+  font-size: 1.2rem !important;
+  color: var(--text-title-h2-muted) !important;
+}
+
+.cm-header-3,
+.markdown-preview-section h3 {
+  font-size: 1.44rem !important;
+  font-weight: 500 !important;
+  color: var(--text-title-h3) !important;
+}
+
+.cm-formatting.cm-formatting-header.cm-formatting-header-3 {
+  font-size: 0.9rem !important;
+  color: var(--text-title-h3-muted) !important;
+}
+
+.cm-header-4,
+.markdown-preview-section h4 {
+  font-size: 1.2rem !important;
+  font-weight: 500 !important;
+  color: var(--text-title-h4) !important;
+}
+
+.cm-formatting.cm-formatting-header.cm-formatting-header-4 {
+  font-size: 0.8rem !important;
+  color: var(--text-title-h4-muted) !important;
+}
+
+.cm-header-5,
+.cm-header-6,
+.markdown-preview-section h5,
+.markdown-preview-section h6 {
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  color: var(--text-title-h5) !important;
+}
+
+.cm-formatting.cm-formatting-header.cm-formatting-header-5,
+.cm-formatting.cm-formatting-header.cm-formatting-header-6 {
+  font-size: 0.7rem !important;
+  color: var(--text-title-h5-muted) !important;
+}
+
+.cm-strong,
+.markdown-preview-section strong {
+  font-weight: 500;
+  color: var(--text-bold);
+}
+
+.cm-formatting.cm-formatting-strong.cm-strong {
+  color: var(--text-bold-muted);
+}
+
+.cm-em,
+.markdown-preview-section em {
+  color: var(--text-italic);
+}
+
+.cm-formatting.cm-formatting-em.cm-em {
+  color: var(--text-italic-muted);
+}
+
+.cm-s-obsidian span.cm-formatting-link,
+span.cm-hmd-internal-link,
+span.cm-url,
+.internal-link {
+  font-weight: 500;
+  color: var(--link) !important;
+}
+
+a {
+  color: var(--link);
+}
+a:hover {
+  color: var(--link-hover);
+}
+
+.CodeMirror .cm-spell-error {
+  background-image: unset;
+  border-bottom: 1px var(--text-error) dashed;
+}
+
+.cm-s-obsidian span.cm-formatting-list {
+  font-weight: 500;
+  color: var(--list-mark);
+}
+
+.cm-s-obsidian span.cm-formatting-task {
+  font-weight: 500;
+  color: var(--task-mark);
+}
+
+.CodeMirror,
+.CodeMirror-cursors,
+.CodeMirror-cursor {
+  font-family: var(--font-monospace);
+}
+
+.CodeMirror-cursor {
+  background-color: var(--vim-cursor) !important;
+  opacity: 60% !important;
+}
+
+.cm-animate-fat-cursor {
+  background-color: var(--vim-cursor) !important;
+}
+
+.cm-s-obsidian span.cm-hashtag {
+  padding-bottom: 1px;
+  font-family: var(--font-monospace);
+  color: var(--tag-text);
+  text-decoration: unset;
+}
+
+span.cm-hashtag-begin {
+  padding-left: 8px;
+  border-top: 1px solid var(--tag-border);
+  border-bottom: 1px solid var(--tag-border);
+  border-left: 1px solid var(--tag-border);
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+span.cm-hashtag-end {
+  padding-right: 10px;
+  border-top: 1px solid var(--tag-border);
+  border-right: 1px solid var(--tag-border);
+  border-bottom: 1px solid var(--tag-border);
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.checkbox-container {
+  background-color: var(--setting-checkbox);
+}
+
+.checkbox-container.is-enabled {
+  background-color: var(--setting-checkbox-enable);
+}
+
+.checkbox-container:after {
+  background-color: var(--setting-checkbox-thumb);
+}
+
+.suggestion-item.is-selected {
+  background-color: var(--background-primary);
+}
+
+.side-dock-ribbon-tab,
+.side-dock-ribbon-action,
+.workspace-tab-header-inner-icon,
+.nav-action-button,
+.view-action,
+.workspace-ribbon-collapse-btn {
+  color: var(--icon);
+}
+.side-dock-ribbon-tab:hover,
+.side-dock-ribbon-action:hover,
+.workspace-tab-header-inner-icon:hover,
+.nav-action-button:hover,
+.view-action:hover,
+.workspace-ribbon-collapse-btn:hover {
+  color: var(--icon);
+}
+
+.cm-s-obsidian pre.HyperMD-list-line {
+  padding-top: unset;
+}
+
+.mod-macos {
+  padding-top: 32px !important;
+}
+
+.mod-macos .titlebar {
+  height: 32px !important;
+}
+
+.mod-macos .titlebar-text {
+  line-height: 30px;
+}
+
+.mod-macos .titlebar-button {
+  padding-top: 4px;
+}
+
+button.mod-cta {
+  color: var(--button-text);
+  background-color: var(--button-bg);
+}
+
+:root {
+  --font-monospace: "Jetbrains Mono", "Source Code Pro", monospace;
+}
