@@ -2,8 +2,8 @@
   "name": "night-owl-obsidian-theme",
   "version": "1.0.0",
   "description": "Night Owl Obsidian Theme",
-  "main": "index.js",
   "author": "Fool's Mate",
+  "repository": "https://github.com/fools-mate/night-owl-obsidian-theme",
   "license": "MIT",
   "devDependencies": {
     "sass": "^1.29.0",
