@@ -81,4 +81,7 @@
   --list-mark: #{colors.$blue};
   --task-mark: #{colors.$blue};
   --vim-cursor: #{colors.$purple};
+
+  // Selected & Active
+  --selected-active: #{colors.$dark2};
 }

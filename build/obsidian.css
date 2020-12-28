@@ -47,6 +47,7 @@
   --list-mark: #82aaff;
   --task-mark: #82aaff;
   --vim-cursor: #c792ea;
+  --selected-active: #0b2942;
 }
 
 .titlebar {
@@ -375,6 +376,14 @@ span.cm-hashtag-end {
 button.mod-cta {
   color: var(--button-text);
   background-color: var(--button-bg);
+}
+
+.nav-file-title.is-active, .nav-folder-title.is-active, body:not(.is-grabbing) .nav-file-title:hover, body:not(.is-grabbing) .nav-folder-title:hover {
+  background-color: var(--selected-active);
+}
+
+.suggestion-item.is-selected {
+  background-color: var(--selected-active);
 }
 
 :root {

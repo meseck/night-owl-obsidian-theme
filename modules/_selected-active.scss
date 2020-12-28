@@ -1,0 +1,7 @@
+.nav-file-title.is-active, .nav-folder-title.is-active, body:not(.is-grabbing) .nav-file-title:hover, body:not(.is-grabbing) .nav-folder-title:hover {
+  background-color: var(--selected-active);
+}
+
+.suggestion-item.is-selected {
+  background-color: var(--selected-active);
+}
